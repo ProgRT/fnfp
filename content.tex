@@ -1,0 +1,70 @@
+\input{fnfp.sty}
+%\includeonly{frames/inspiration}
+
+%%%%%%%%%%%%%
+% Metadata
+%%%%%%%%%%%%%
+
+\title{Faux positifs et faux négatifs}
+\subtitle{Failles de l'algorithme de déclenchement inspiratoire}
+\author{\ninh}
+\date{27 octobre 2021\\\scriptsize4\textsuperscript{e} vague de COVID-19}
+\institute{\inhg\linebreak\chum}
+\titlegraphic{\includegraphics[height=\pageheight]{221.jpg}}
+\addbibresource{bibliographie.bib}
+
+%%%%%%%%%%%%%
+% Document
+%%%%%%%%%%%%%
+
+\begin{document}
+
+\include{frames/title}
+
+\section{Introduction}
+
+\article{
+	Comme toute chose conçue par l'hommes (ou la femme, d'ailleurs...),
+	les algorithme de détection des efforts inspiratoire des ventilateurs
+	ne sonts pas parfaits. Bien qu'appliqués sans erreurs par le
+	microprocesseur du ventilateur, ses résultats comportent -comme pour
+	n'importe quel test- leur lots de faux positifs et de faux négatifs.
+
+	À votre avis, ces deux phénomènes sont-ils fréquents ou marginaux ?
+
+	En avez vous déja observés ?
+
+	Connaisses vous d'autres noms donnés à ces phénomènes ?
+
+	Quelles peuvent êtres les conséquences de leur non-reconnaissance ?
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Faux négatifs}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\include{frames/fauxneg}
+\include{frames/eqmvt}
+\include{frames/inspiration}
+\include{frames/thile}
+\include{frames/fauxnegcorige}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Faux positif}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{frames/fauxpos}
+\include{frames/fauxposcorige}
+\include{frames/imanaka}
+\include{frames/bib}
+\appendix
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Contrôle de la respiration}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{frames/centre_respi1}
+\include{frames/circuit}
+
+\end{document}
